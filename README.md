@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-(Images/RedTeam_network_diagram.png)
+![RedTeam network diagram](Images/RedTeam_network_diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
-(Images/docker_ps_output.png)
+![Docker ps output](Images/docker_ps_output.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
