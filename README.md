@@ -106,14 +106,14 @@ Specific commands
     $ curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > filebeat-config.yml
 
 - To Update the hosts file
-     $ nano /ect/ansible/hosts
-	   [webservers]
-        10.0.0.5
-        10.0.0.6
-       [elk]
-        10.1.0.4
+     - $ nano /ect/ansible/hosts
+	 - [webservers]
+         - 10.0.0.5
+         - 10.0.0.6
+         - [elk]
+         - 10.1.0.4
 
 - Run the playbook  
-    $ ansible-playbook install-elk.yml 
-    $ ansible-playbook filebeat-playbook.yml
-    $ ansible-playbook metricbeat-playbook.yml	
+    - $ ansible-playbook install-elk.yml 
+    - $ ansible-playbook filebeat-playbook.yml
+    - $ ansible-playbook metricbeat-playbook.yml	
