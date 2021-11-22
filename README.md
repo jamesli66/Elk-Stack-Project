@@ -88,8 +88,10 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat collect log files on remote machines and ship to Logstash and Elasticsearch. Such as specify to collect access logs from Apache, which we can keep track of all requests processed by the Apache server.
+![Filebeat diagram](Images/filebeat.png)
 
 - Metricbeat collecting machine metrics and service metrics for monitoring their performace, such as CPU usage and memory load to determine whether malicious service is running.
+![Metricbeat diagram](Images/metricbeat.png)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
